@@ -1,10 +1,10 @@
 # PRIMER PARCIAL BIG DATA
 
-*Universidad: Sergio Arboleda
+*Universidad: Sergio Arboleda*
 *Estudiantes: Diana Carolina Quintero Bedoya*
 
 ## Parte II
-*DatawareHouse AWS RDS (26 puntos)
+*DatawareHouse AWS RDS (26 puntos)*
 1.	Cargar la bd de employees de MYSQL en una Base de datos AWS RDS https://dev.mysql.com/doc/employee/en/employees-installation.html (5 puntos)
 2.	Diseñar una BD de datos DatawareHouse usando el modelo dimensional de estrella que permita analizar las información de productos, clientes y órdenes de ventas trimestrales. (5 puntos)
 3.	Crear la BD de Datawarehouse en una BD postgressql en AWS RDS.
@@ -17,12 +17,12 @@
 
 ##  Consultas generadas
 
-*SHOW TABLES;
-*SELECT * FROM employees;
-*SELECT * FROM departments;
-*SELECT * FROM dept_emp;
-*SELECT * FROM dept_emp_latest_date;
-*SELECT * FROM current_dept_emp;
-*SELECT * FROM dep_manager;
-*SELECT * FROM salaries;
-*SELECT * FROM titles;
+*SHOW TABLES;*
+*SELECT * FROM employees;*
+*SELECT * FROM departments;*
+*SELECT * FROM dept_emp;*
+*SELECT * FROM dept_emp_latest_date;*
+*SELECT * FROM current_dept_emp;*
+*SELECT * FROM dep_manager;*
+*SELECT * FROM salaries;*
+*SELECT * FROM titles;*
