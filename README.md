@@ -44,3 +44,30 @@
 ```
 *SELECT * FROM titles;*
 ```
+
+## PUNTO 5. Realizas consultas
+
+- Se realizó la consulta de los salarios máximos de los empleados por departamento.
+```
+select  *  from  employees.salaries inner join dept_emp,departments
+where salaries.salary = (SELECT MAX(salary) FROM salaries);
+```
+- Se realizó la consulta de los salarios minimo de los empleados por departamento.
+```
+select  *  from  employees.salaries inner join dept_emp,departments
+where salaries.salary = (SELECT MIN(salary) FROM salaries);
+```
+- Se cuentan los títulos de los empleados y se agrupan por los mismos.
+```
+Select *, COUNT(*) as COUNT from employees.titles GROUP BY title;
+```
+- Consulta que devuelve, para cada empleado, todas su información y el número de empleados que nacieron el mismo día.
+```
+select e.*, e2.suma as cumple from employees as e
+inner join(	select e.birth_date, count(*) as suma
+  from employees as e  group by e.gender) as e2 on e2.birth_date = e.birth_date
+```
+- Se cuenta la cantidad de empleados por géneros.
+```
+Select *, COUNT(*) as COUNT from employees GROUP BY gender;
+```
