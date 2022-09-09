@@ -1,6 +1,8 @@
-# PrimerParcialBigData
+<em> # PRIMER PARCIAL BIG DATA </em>
 
-## COnsultas Generadas
+   <p align="left">
+  <em> Consultas generadas<em>
+   </p>
 
 SHOW TABLES;
 SELECT * FROM employees;
