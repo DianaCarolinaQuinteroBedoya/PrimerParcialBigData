@@ -1,7 +1,7 @@
 # PRIMER PARCIAL BIG DATA
 
 *Universidad: Sergio Arboleda*
-*Estudiantes: Diana Carolina Quintero Bedoya*
+##Estudiantes: Diana Carolina Quintero Bedoya
 
 ## Parte II
 *DatawareHouse AWS RDS (26 puntos)*
@@ -17,12 +17,30 @@
 
 ##  Consultas generadas
 
+```
 *SHOW TABLES;*
+```
+```
 *SELECT * FROM employees;*
+```
+```
 *SELECT * FROM departments;*
+```
+```
 *SELECT * FROM dept_emp;*
+```
+```
 *SELECT * FROM dept_emp_latest_date;*
+```
+```
 *SELECT * FROM current_dept_emp;*
+```
+```
 *SELECT * FROM dep_manager;*
+```
+```
 *SELECT * FROM salaries;*
+```
+```
 *SELECT * FROM titles;*
+```
