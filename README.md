@@ -18,34 +18,34 @@
 ##  Consultas generadas
 
 ```
-*SHOW TABLES;*
+SHOW TABLES;
 ```
 ```
-*SELECT * FROM employees;*
+SELECT * FROM employees;
 ```
 ```
-*SELECT * FROM departments;*
+SELECT * FROM departments;
 ```
 ```
-*SELECT * FROM dept_emp;*
+SELECT * FROM dept_emp;
 ```
 ```
-*SELECT * FROM dept_emp_latest_date;*
+SELECT * FROM dept_emp_latest_date;
 ```
 ```
-*SELECT * FROM current_dept_emp;*
+SELECT * FROM current_dept_emp;
 ```
 ```
-*SELECT * FROM dep_manager;*
+SELECT * FROM dep_manager;
 ```
 ```
-*SELECT * FROM salaries;*
+SELECT * FROM salaries;
 ```
 ```
-*SELECT * FROM titles;*
+SELECT * FROM titles;
 ```
 
-## PUNTO 5. Realizas consultas
+## PUNTO 5. Realizar consultas
 
 - Se realizó la consulta de los salarios máximos de los empleados por departamento.
 ```
